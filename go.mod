@@ -1,6 +1,7 @@
 module github.com/gilcrest/diygoapi
 
 go 1.22.1
+toolchain go1.23.6
 
 require (
 	github.com/frankban/quicktest v1.14.6
@@ -13,7 +14,7 @@ require (
 	github.com/peterbourgon/ff/v3 v3.4.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.33.0
-	golang.org/x/oauth2 v0.21.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/text v0.16.0
 	google.golang.org/api v0.188.0
 )
